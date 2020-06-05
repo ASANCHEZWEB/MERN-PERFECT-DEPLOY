@@ -62,10 +62,8 @@ axios.get(`http://localhost:5000/api/users`)
  
  -Configuramos la variable de entorno en heroku para base de datos con "heroku config:get MONGODB_URI"
  
+ # DEPLOY TERMINADO
+ 
+ Una vez hechos esos pasos ya podriamos tener nuestra app react desplegada y hacer peticiones ajax sin problemas incluida la base de datos en heroku. También se puede sustituir el endpoint de la base de datos de mongolab en las variables de entorno dentro de "settings" en la app que hemos creado desde el navegador  y sustituirlo por ejemplo por una base de datos mas pro como https://www.mongodb.com/cloud/atlas .
  
  
-
-    
-
-
-
