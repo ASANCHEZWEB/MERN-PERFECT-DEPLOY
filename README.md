@@ -52,7 +52,7 @@ axios.get(`http://localhost:5000/api/users`)
  
  -Fijamos el repo de heroku con el comando "heroku git:remote -a nombreAPP"
  
- -Hacemos los cambios que sea y ejecutamos "git add ."
+ -Añadimos todo para commitear ejecutando "git add ."
  
  -Hacemos commit de los cambios con "git commit -m"primer commit a heroku repo""
  
