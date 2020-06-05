@@ -1,7 +1,7 @@
 # MERN-PERFECT-DEPLOY
 Guia para montar una app correctamente en react y express sin fallos a partir de este repo.
 
-Para uso en local , ejecutar npm start en client carpeta para el front (react) y npm run dev en la raiz para el back(node,express).
+Para uso en local , ejecutar "npm start" en client carpeta para el front (react) y "npm run dev" en la raiz para el back(node,express).
 
 # DESCARGAR
 Una vez descargado , hacer "npm i" en la raiz para instalar dependencias . 
