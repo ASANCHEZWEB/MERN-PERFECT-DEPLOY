@@ -14,6 +14,8 @@ Una vez descargado , hacer "npm i" en la raiz para instalar dependencias .
 En la raiz  del proyecto eliminamos "client carpeta" ya que es el proyecto de ejemplo y  creamos una nueva aplicacion react con el generador "npx create-react-app client" en consola desde raiz 
 ,es importante que el proyecto se llame "client" ya que el back esta configurado así.
 
+IMPORTANTE: Eliminar el .gitignore de la carpeta client una vez crada la app con "npx create-react-app client".
+
 # LLAMADAS AJAX AL BACKEND PARA PRODUCCIÓN
 Para hacer las llamadas al backend cuando  lo vayamos a subir a prod lo haremos así :
 
@@ -52,7 +54,7 @@ axios.get(`http://localhost:5000/api/users`)
  
  -Hacemos los cambios que sea y ejecutamos "git add ."
  
- -Hacemos commit de los cambios con "git commit -m"primer commit a heroku repo"
+ -Hacemos commit de los cambios con "git commit -m"primer commit a heroku repo""
  
  -Pusheamos a heroku con "git push heroku master"
  
