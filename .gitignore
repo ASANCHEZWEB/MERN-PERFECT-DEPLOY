@@ -1,0 +1,16 @@
+# Dependency directory
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+# Environment Variables should NEVER be published
+.env
+
+/client/public
+/client/node_modules
+/client/src
+/client/package-lock.json
+/client/package.json
+/client/README.md
+/client/.env.production
